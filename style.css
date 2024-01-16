@@ -55,7 +55,7 @@ nav ul li a{
     color:orangered;
 }
 .paragraph-side{
-    padding-top: 30px;
+    padding-top: 20px;
     font-size: 20px;
 }
 
@@ -286,3 +286,103 @@ nav ul li:first-child a{
     }
     
 }
+
+/* section-1 mediya quary end */
+
+/* section-2 code start */
+
+.section-2-text{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:150px ;
+    margin-right: 150px;
+}
+.section-2-text h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.section-2-image1{
+    display: flex;
+    gap: 10px;
+    margin-left: 150px;
+    margin-right: 100px;
+    position: relative;
+}
+
+.img-1 img{
+    width: 500px;
+    height: 200px;
+    position: relative;
+}
+
+.img-2 img{
+    width: 500px;
+    height: 200px;
+}
+
+.section-2-image2{
+    display: flex;
+    gap: 10px;
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+.img-3 img{
+    width: 300px;
+    height: 200px;
+}
+.img-4 img{
+    width: 400px;
+    height: 200px;
+}
+.img-5 img{
+    width:290px ;
+    height: 200px;
+}
+
+.section-image-3{
+    display: flex;
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.img-6 img{
+    width: 400px;
+    height: 200px;
+}
+.img-7 img{
+    width: 600px;
+    height: 200px;
+}
+
+/* section-2 code end */
+
+/* mediya quary code start */
+
+@media screen and (max-width:576px){
+    .section-2-image1,.section-2-image2,.section-image-3{
+        flex-direction: column;
+        margin: 40px;
+        gap: 5px;
+    }
+    .img-1 img,.img-2 img,.img-3 img,.img-4 img,.img-5 img,.img-6 img,.img-7 img{
+        width: 230px;
+        height: 250px;
+        margin-top: 5px;
+    }
+    .section-2-text{
+        margin: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+
+    
+}
+
+
