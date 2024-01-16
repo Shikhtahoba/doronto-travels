@@ -138,8 +138,11 @@ nav ul li:first-child a{
 
 }
 .travel-list1{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
     margin-bottom: 40px;
-    border: 0;
+    font-size: 20px;
 }
 .travel{
     border: 0;
@@ -156,3 +159,63 @@ nav ul li:first-child a{
   padding: 10px;
   
 }
+
+
+/* mediya quary code start header */
+
+@media screen and (max-width:576px) {
+
+    .header{
+        height: 580px;
+    }
+
+    .header-text h2{
+        font-size: 30px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .travel-list{
+        flex-direction: column;
+        margin-right: 10px;
+        margin-left: 10px;
+        
+        height: 300px;
+    }
+    .travel-list1{
+        margin-top: 0
+        text-align:;
+        margin-left: 60px;
+        width: 150px;
+        margin-bottom: 10px;
+        
+    }
+    .header-text{
+        padding: 10px;
+    }
+    .travel{
+        border: 0;
+        font-size: 15px;
+        padding: 5px;
+        border-radius: 5px;
+        margin-top: 5px;
+        padding-top: 5px;
+    }
+    .travel-list4 a{
+        font-size: 25px;
+        margin-left: 60px;
+        margin-bottom: 15px;
+        width: 250px;
+        height: 10px;
+        margin-top: 10px;
+    }
+    .travel{
+        margin-left: 60px;
+        width: 150px;
+        height: 40px;
+        text-align: ;
+    }
+    
+    
+}
+
+/* mediya quary header section code end */
