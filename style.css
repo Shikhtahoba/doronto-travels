@@ -125,3 +125,34 @@ nav ul li:first-child a{
     padding-top: 100px;
     padding-bottom: 20px;
 }
+
+.travel-list{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    background-color: rgba(0, 0, 0, 0.452);
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-top: 50px;
+    border-radius: 10px;
+
+}
+.travel-list1{
+    margin-bottom: 40px;
+    border: 0;
+}
+.travel{
+    border: 0;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.travel-list4 a{
+    text-decoration: none;
+  background-color:orangered;
+  font-size: 30px;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  
+}
