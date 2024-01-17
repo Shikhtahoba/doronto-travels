@@ -614,6 +614,62 @@ nav ul li:first-child a{
     
 }
 
+/* mediya quary code end */
+
+/* footer section code start */
+
+footer{
+    background-color:bisque;
+    height: 400px;
+}
+
+.footer-end{
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+    padding-top: 90px;
+    padding-bottom: 20px;
+
+}
+.icon{
+    display: flex;
+    padding-top: 30px;
+    gap: 25px;
+    margin-left: 40%;
+    align-items: center;
+    
+}
+.icon i{
+    font-size: 40px;
+    text-align: center;
+}
+.footer-pa{
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* mediya quary footer */
+
+@media screen and (max-width:576px) {
+    .icon i{
+        font-size: 30px;
+    }
+    .icon{
+        margin-left: 20%;
+        gap: 20px;
+    }
+    .footer-end{
+        margin-left: 10%;
+        padding-top: 25px;
+    }
+    footer{
+        height: 350px;
+    }
+    
+}
+
+
+
 
 
 
