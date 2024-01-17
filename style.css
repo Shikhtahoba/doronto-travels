@@ -385,4 +385,103 @@ nav ul li:first-child a{
     
 }
 
+/* mediya quary code end */
+
+
+/* section-3 code start */
+
+.choose-title{
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.choose-title h2{
+   font-size: 30px;
+   margin-bottom: 20px;
+}
+
+
+.card{
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.card-1{
+    background-color: antiquewhite;
+    width: 500px;
+    height: 150;
+    padding: 40px;
+    border-radius: 10px;
+}
+.card-2{
+    background-color: lightslategray;
+    width: 500px;
+    height: 250;
+    padding: 40px;
+    border-radius: 10px;
+}
+.card-3{
+    background-color: limegreen;
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 450px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.card-1 i{
+    font-size: 50px;
+    color: gold;
+    margin-bottom: 10px;
+}
+.card-2 i{
+    font-size: 50px;
+    color: brown;
+    margin-bottom: 10px;
+}
+.card-3 i{
+    font-size: 50px;
+    color: chocolate;
+    margin-bottom: 10px;
+}
+.card-1 h2,.card-2 h2,.card-3 h2{
+    margin-bottom: 15px;
+}
+
+/* section-3 code end */
+
+/* mediya quary code start */
+
+@media screen and (max-width:576px) {
+    .choose-title{
+        margin: 10px;
+        margin-bottom: 10px;
+    }
+    .card{
+        flex-direction: column;
+        margin: 40px;
+        gap: 5px;
+    }
+    .card-1,.card-2{
+        width: 230px;
+        height: 270px;
+        margin-top: 25px;
+    }
+    .card-3{
+        margin-left: 38px;
+        margin-right: 38px;
+        width: 230px;
+        height: 270px;
+        margin-top: 5px;
+    }
+    
+}
+
+
 
