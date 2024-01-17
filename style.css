@@ -485,3 +485,136 @@ nav ul li:first-child a{
 
 
 
+/* optional code start */
+
+
+.form-address{
+    display: flex;
+    padding: 50px ;
+    justify-content: space-between;
+}
+.form-single{
+    text-align: center;
+}
+.form-single i{
+    background-color: rgb(21, 21, 214);
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+.form-single span{
+    font-weight: bold;
+}
+
+/* mediya quary code start optional */
+
+@media screen and (max-width:576px){
+    .form-address{
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+}
+
+
+
+/* optional code end */
+
+/* section-4 code start */
+
+.section-4{
+    display: flex;
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.input-text{
+
+    border: 2px solid brown;
+    width: 400px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.input-image img{
+    width: 600px;
+    height: 250px;
+}
+
+.discount{
+    position: relative;
+    background-color: orangered;
+    width: 230px;
+    padding: 10px;
+    border: 0;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    bottom: 100px;
+    bottom: calc(20deg);
+    margin-left: 300px;
+    transform: rotateZ(15deg);
+}
+.input-p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.input{
+    
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px wheat;
+}
+.section-4-button{
+    border: 0;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* section-4 code end */
+
+/* mediya quary code start */
+
+@media screen and (max-width:576px){
+    .section-4{
+        flex-direction: column;
+        margin: 30px;
+    }
+    .input-text{
+        width: 250px;
+        height: 250px;
+        padding: 10px;
+    }
+    .input-image img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .discount{
+        
+    
+        width: 130px;
+        padding: 5px;
+        
+        
+        border-radius:5px;
+        
+        bottom: 100px;
+        bottom: calc(20deg);
+        margin-left: 30px;
+        transform: rotateZ(15deg);
+    }
+    
+}
+
+
+
+
+
